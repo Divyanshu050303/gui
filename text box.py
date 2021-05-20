@@ -1,0 +1,12 @@
+from tkinter import *
+root=Tk()
+root.geometry("300x300")
+root.title("Text box")
+name=Label(root, text="Name").place(x=30, y=50)
+email=Label(root, text="Email").place(x=30, y=90)
+password=Label(root, text="Password").place(x=30, y=130)
+submit=Button(root, text="Submit", bg="black", fg="white").place(x=120, y=170)
+e1=Entry(root).place(x=85, y=50)
+e2=Entry(root).place(x=85, y=90)
+e3=Entry(root).place(x=90, y=130)
+root.mainloop()
