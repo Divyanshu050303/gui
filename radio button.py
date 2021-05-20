@@ -1,0 +1,11 @@
+from tkinter import *
+root=Tk()
+root.geometry("300x250")
+root.title("RADIO button ")
+b1=Radiobutton(root, text="First", value=1)
+b2=Radiobutton(root, text="Second", value=2)
+b3=Radiobutton(root, text="Third", value=3)
+b1.grid(column=0, row=0)
+b2.grid(column=1, row=0)
+b3.grid(column=2, row=0)
+root.mainloop()
