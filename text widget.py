@@ -1,0 +1,11 @@
+from tkinter import *
+root=Tk()
+my_text=tkintk.text(root)
+root.geometry("300x300")
+root.title("TEXT WIDGET")
+root.insert("1.0", "Python")
+root.insert("1.19", "python program")
+root.delete("1.0")
+root.delete("end 2- char")
+root.pack()
+root.mainloop()
